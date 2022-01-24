@@ -13,7 +13,7 @@ const Home = ({ data, loading, getData }) => {
             <>
             <Navbar />
             <div className='mt-24 w-full flex flex-col justify-center items-center pb-20'>
-                <h1 className='font-bold text-3xl capitalize'><span className=' bg-gradient-to-r from-violet-500 to-blue-500 text-transparent bg-clip-text'>20 random people</span> over the World!</h1>
+                <h1 className='font-bold text-3xl capitalize text-center'><span className=' bg-gradient-to-r from-violet-500 to-blue-500 text-transparent bg-clip-text'>20 random people</span> over the World!</h1>
                 <div className='mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12'>
                     {
                         data.results.map(person => (
