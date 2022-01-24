@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+ 
+  
+@keyframes fadeIn {
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes fadeInSimple {
+    100% {
+        opacity: 1;
+    }
+}
+
+.people {
+    opacity: 0;
+}
+
+@media (max-width: 800px) {
+    .people {
+        animation: 1s fadeInSimple forwards;
+    }
+}
+
+@media (min-width: 820px) {
+    .people {
+        animation: 1s fadeIn 1s forwards;
+    }
+}
