@@ -35,7 +35,7 @@ export const useFetch = (url) => {
             setError(error)
           }
     };
-
+ 
     useEffect(() => {
         getData()
     }, [url])
