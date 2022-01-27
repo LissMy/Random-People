@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFetch } from '../custom_hooks/useFetch';
 
 const PersonDetails = () => {
 
-    const { loading, data , error } = useFetch('https://randomuser.me/api?results=20');
+    const { data } = useFetch('https://RandomUsers.me/api?results=20');
     const { results } = data;
     const { id } = useParams();
     
 
-    const [person, setPerson] = useState({})
+    // const [person, setPerson] = useState({})
 
     useEffect(() => { 
         console.log(data)

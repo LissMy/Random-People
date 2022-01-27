@@ -4,7 +4,7 @@
 
 @layer components {
     .navbar {
-      @apply flex justify-around items-center fixed top-0 w-full transition-all duration-300 py-4 mb-5 z-10 font-bold;
+      @apply flex md:flex-row flex-col justify-around items-center fixed top-0 w-full transition-all duration-300 py-4 mb-5 z-10 font-bold;
     }
     .scrolled {
       @apply bg-gradient-to-r from-violet-600 via-purple-500 to-blue-600 text-white shadow-sm transition-all duration-300;

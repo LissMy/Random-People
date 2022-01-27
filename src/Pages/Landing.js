@@ -10,9 +10,9 @@ const Landing = () => {
         <Navbar />
         <div className="h-screen w-full font-['Montserrat'] ">
             <div className='flex flex-col items-center md:flex-row h-screen'>
-                <div className='my-auto mt-20 md:my-auto md:pl-20'>
-                    <h1 className="uppercase font-regular mb-10 leading-10 text-[40px] xl:text-[80px] xl:leading-[5rem]"> Best place to <br /> fetch random <br /> <span className='font-semibold text-[60px] xl:text-[120px]'>identities</span></h1>
-                    <h5 className='font-semibold text-xl mt-5'>Random details you will get: </h5>
+                <div className='my-auto mt-20 md:my-auto md:pl-32'>
+                    <h1 className="uppercase font-regular mt-4 mb-10 leading-10 text-[40px] xl:text-[80px] xl:leading-[5rem]"> Best place to <br /> fetch random <br /> <span className='font-semibold text-[60px] xl:text-[120px]'>identities</span></h1>
+                    <h5 className='font-semibold text-xl -mt-4'>Random details you will get: </h5>
                     <ul className='list-disc pl-8 mb-10 lg:mb-20'>
                         <li>name</li>
                         <li>email address</li>
@@ -25,7 +25,7 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className='justify-self-end flex-1 my-auto md:justify-center'>
-                    <img className='people md:rotate-[10deg] w-[80%] md:w-[90%] mx-auto' src="profilepics.png" alt="" />
+                    <img className='people md:rotate-[10deg] w-[80%] md:w-[73%] mx-auto' src="profilepics.png" alt="" />
                 </div>
             </div>
         </div>

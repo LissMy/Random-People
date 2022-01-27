@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className={isScrolled ? 'navbar scrolled' : 'navbar'}> 
                 <div className='font-bold text-3xl'>
-                    Liss
+                    Random
                 </div>
                 <div className='space-x-5'>
                     <Link to='/'>Home</Link>
